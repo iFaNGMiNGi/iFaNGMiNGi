@@ -24,8 +24,7 @@ Right now I spend most of my time around:
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [WaMacTools](https://github.com/iFaNGMiNGi/Wamactools) | Official downloads and public surface for Mac utility tools | macOS product |
-| [BetterCmdTab](https://github.com/iFaNGMiNGi/BetterCmdTab) | Fork with Simplified Chinese localization work for a faster macOS app switcher | Swift |
-| [Thaw](https://github.com/iFaNGMiNGi/Thaw) | Menu bar manager experiments for newer macOS versions | Swift |
+| [iFaNGMiNGi](https://github.com/iFaNGMiNGi/iFaNGMiNGi) | Profile README and public GitHub surface | Markdown |
 
 ## Toolkit
 
@@ -43,5 +42,5 @@ product polish    Copy, defaults, packaging, release flow
 
 <p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=iFaNGMiNGi&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iFaNGMiNGi&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iFaNGMiNGi&layout=compact&hide_border=true&theme=tokyonight&exclude_repo=BetterCmdTab,Thaw" alt="Top languages" />
 </p>
