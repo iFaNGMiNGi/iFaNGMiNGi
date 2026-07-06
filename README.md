@@ -38,9 +38,8 @@ small utilities   Narrow scope, useful every day
 product polish    Copy, defaults, packaging, release flow
 ```
 
-## GitHub Snapshot
+## Current Focus
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=iFaNGMiNGi&show_icons=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iFaNGMiNGi&layout=compact&hide_border=true&theme=tokyonight&exclude_repo=BetterCmdTab,Thaw" alt="Top languages" />
-</p>
+- Shipping small macOS utilities with clean defaults
+- Keeping public project pages simple and clear
+- Polishing Swift desktop workflows before adding new scope
