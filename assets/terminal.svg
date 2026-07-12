@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
+  <title id="title">iFaNGMiNGi developer terminal</title>
+  <desc id="desc">Animated terminal introducing a macOS developer focused on Swift and product polish.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b1020"/>
+      <stop offset=".55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#071a18"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="type1"><rect x="72" y="112" width="0" height="28"><animate attributeName="width" values="0;470;470" keyTimes="0;.72;1" dur="2.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="type2"><rect x="72" y="166" width="0" height="28"><animate attributeName="width" values="0;0;610;610" keyTimes="0;.18;.82;1" dur="3s" begin="2s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect width="1000" height="430" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="998" height="428" rx="17" fill="none" stroke="#263348" stroke-width="2"/>
+  <path d="M0 62H1000" stroke="#263348"/>
+  <circle cx="31" cy="31" r="7" fill="#ff5f57"/><circle cx="55" cy="31" r="7" fill="#febc2e"/><circle cx="79" cy="31" r="7" fill="#28c840"/>
+  <text x="500" y="38" text-anchor="middle" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">fang@macbook — zsh — 100×28</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="21">
+    <g clip-path="url(#type1)">
+      <text x="72" y="133" fill="#34d399">➜</text><text x="104" y="133" fill="#64748b">~</text><text x="130" y="133" fill="#e2e8f0">whoami --verbose</text>
+    </g>
+    <g clip-path="url(#type2)">
+      <text x="72" y="187" fill="#34d399">➜</text><text x="104" y="187" fill="#64748b">~</text><text x="130" y="187" fill="#e2e8f0">swift run build-better-mac-tools</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="70" y="222" width="860" height="1" fill="#263348"/>
+    <text x="72" y="263" fill="#f8fafc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="30" font-weight="700">iFaNGMiNGi</text>
+    <text x="72" y="296" fill="#94a3b8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">macOS developer · native utilities · sharp product details</text>
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16">
+      <text x="72" y="344" fill="#64748b">stack</text><text x="151" y="344" fill="#38bdf8">Swift · AppKit · SwiftUI · TypeScript</text>
+      <text x="72" y="377" fill="#64748b">status</text><text x="151" y="377" fill="#34d399">● shipping useful things</text>
+    </g>
+  </g>
+
+  <rect x="72" y="397" width="7" height="19" rx="1" fill="url(#accent)" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="0" width="5" height="430" fill="url(#accent)" opacity=".8">
+    <animate attributeName="y" values="-430;430" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
